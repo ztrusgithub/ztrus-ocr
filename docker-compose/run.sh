@@ -87,8 +87,8 @@ then
 	OPEN_OCR_INSTANCE_NAME="open-ocr"
 elif [ "$OPEN_OCR_VERSION" == 2 ]
 then
-	echo "Open ocr instance name will be open-ocr-2"
-	OPEN_OCR_INSTANCE_NAME="open-ocr-2"
+	echo "Open ocr instance name will be dockerocr"
+	OPEN_OCR_INSTANCE_NAME="dockerocr"
 else
 	echo "ERROR: No correct version specified (please choose between 1 and 2)"
 	exit
