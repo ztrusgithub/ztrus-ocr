@@ -67,7 +67,7 @@ cleanContainer
 
 # put a space as we open-ocr and open-ocr-2 will match on open-ocr grep
 checkAndCleanImage "tleyden5iwx/open-ocr "
-checkAndCleanImage " ztrusgithub/dockerocr "
+checkAndCleanImage "ztrusdocker/ztrus-ocr"
 checkAndCleanImage "tleyden5iwx/rabbitmq"
 checkAndCleanImage "tleyden5iwx/open-ocr-preprocessor"
 
@@ -87,8 +87,8 @@ then
 	OPEN_OCR_INSTANCE_NAME="open-ocr"
 elif [ "$OPEN_OCR_VERSION" == 2 ]
 then
-	echo "Open ocr instance name will be dockerocr"
-	OPEN_OCR_INSTANCE_NAME="dockerocr"
+	echo "Open ocr instance name will be ztrus-ocr"
+	OPEN_OCR_INSTANCE_NAME="ztrus-ocr"
 else
 	echo "ERROR: No correct version specified (please choose between 1 and 2)"
 	exit
