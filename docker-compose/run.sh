@@ -67,7 +67,7 @@ cleanContainer
 
 # put a space as we open-ocr and open-ocr-2 will match on open-ocr grep
 checkAndCleanImage "tleyden5iwx/open-ocr "
-checkAndCleanImage "tleyden5iwx/open-ocr-2 "
+checkAndCleanImage " ztrusgithub/dockerocr "
 checkAndCleanImage "tleyden5iwx/rabbitmq"
 checkAndCleanImage "tleyden5iwx/open-ocr-preprocessor"
 
