@@ -4,7 +4,7 @@ import (
 	"fmt"
 
 	"github.com/couchbaselabs/logg"
-	"github.com/tleyden/open-ocr"
+	"github.com/ztrusgithub/ztrus-ocr"
 )
 
 // This assumes that there is a rabbit mq running
