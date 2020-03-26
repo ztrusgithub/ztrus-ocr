@@ -23,7 +23,7 @@ services:
 
   # Start OCR worker
   openocrworker:
-    image: tleyden5iwx/${OPEN_OCR_INSTANCE}
+    image: ztrusgithub/dockerocr
     volumes:
       - ./scripts/:/opt/open-ocr/
     dns: ["8.8.8.8"]
